@@ -39,4 +39,3 @@ jobs:
           '${{ needs.sanity.result }}',
           '${{ needs.unit-galaxy.result }}'
           ]) == {'success'}"
-

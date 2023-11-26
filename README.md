@@ -1,4 +1,4 @@
-# Ewenbara Krb5 Collection
+# EwenBara Krb5 Collection
 
 This repository contains the `EwenBara.krb5` Ansible Collection.
 
@@ -10,9 +10,31 @@ Tested with ansible-core >=2.13 releases and the current development version of 
 
 Some modules and plugins require external libraries. Please check the requirements for each plugin or module you use in the documentation to find out which requirements are needed.
 
+<!--start requires_ansible-->
+## Ansible version compatibility
+
+This collection has been tested against following Ansible versions: **>=2.13.0**.
+
+For collections that support Ansible 2.9, please ensure you update your `network_os` to use the
+fully qualified collection name (for example, `cisco.ios.ios`).
+Plugins and modules within a collection may be tested with only specific Ansible versions.
+A collection may contain metadata that identifies these versions.
+PEP440 is the schema used to describe the versions of Ansible.
+<!--end requires_ansible-->
+
 ## Included content
 
 Please check the included content on the [Ansible Galaxy page for this collection](https://galaxy.ansible.com/EwenBara/krb5).
+
+<!--start collection content-->
+### Hello_world filter plugins
+filter plugin.
+
+Name | Description
+--- | ---
+EwenBara.krb5.hello_world|Returns Hello message.
+
+<!--end collection content-->
 
 ## Using this collection
 

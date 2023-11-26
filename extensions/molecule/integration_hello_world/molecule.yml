@@ -18,4 +18,3 @@ scenario:
     - converge
   destroy_sequence:
     - destroy
-
